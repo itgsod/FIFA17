@@ -17,7 +17,36 @@ The project consists to create a simple ascii based football game.
 
 ##Class Diagram
 
+class Player
+
+variables:
+
+* name
+* role
+* number
+* position
+
+methods:
+
+* pass
+* goLeft
+* goRight
+* goForward
+* goBackward
 
 
+class Squad:
+
+variables:
+* name
+* nationality
+* side
+
+
+methods:
+
+* formation
+* defence
+* offence
 
 
