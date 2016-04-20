@@ -17,16 +17,16 @@ The project consists to create a simple ascii based football game.
 
 ##Class Diagram
 
-class Player
+###class Player
 
-variables:
+####variables:
 
 * name
 * role
 * number
 * position
 
-methods:
+####methods:
 
 * pass
 * goLeft
@@ -35,18 +35,58 @@ methods:
 * goBackward
 
 
-class Squad:
+###class Squad:
 
-variables:
+####variables:
+
 * name
 * nationality
 * side
+* positions = {number:[x,y], ....}
 
-
-methods:
+####methods:
 
 * formation
 * defence
 * offence
 
+
+###class Pitch
+
+* drawPitch
+* updatePitch
+
+
+###class Ball
+
+* show_position
+* new_position
+
+
+## Pitch Ascii Graphic
+* xmax = 20
+* ymax = 10
+
+------------------------------------------------20------------->  X
+|                                                |
+|                                                |
+|                                                |
+|          +                  +                  |
+|                                                |
+|                                                |
+
++
+
+|                  *+                            |
+|                                                |
+|                           +                    |
+|                                                |
+|                                                |
+|                                                |
+-------------------------------------------------- (20,10)
+|
+|
+|
+^
+Y
 
