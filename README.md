@@ -67,6 +67,7 @@ The project consists to create a simple ascii based football game.
 * xmax = 20
 * ymax = 10
 
+```
 ------------------------------------------------20------------->  X
 |                                                |
 |                                                |
@@ -90,3 +91,4 @@ The project consists to create a simple ascii based football game.
 ^
 Y
 
+```
